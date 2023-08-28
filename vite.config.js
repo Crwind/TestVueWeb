@@ -13,6 +13,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: "/TestVueWeb/"
+  base: "/TestVueWeb/",
+  build: {
+    outDir: "docs"
+  }
 })
 
