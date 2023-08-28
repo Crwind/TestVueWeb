@@ -14,5 +14,5 @@ git commit -m 'deploy'
 # git push -f git@github.com:crwind/crwind.github.io.git master
 
 # 部署到 https://crwind.github.io/<REPO>
-git push -f git@github.com/Crwind/TestVueWeb.git master:gh-pages
+git push -f https://github.com/Crwind/TestVueWeb.git master:gh-pages
 cd -
